@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap">
+    <style>
+        body {
+            background: linear-gradient(135deg, #16a085, #27ae60); /* Gradient background */
+            color: #ecf0f1; /* Text color */
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        center {
+            text-align: center;
+        }
+
+        h1 {
+            color: #e74c3c; /* Heading color */
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #f39c12; /* Button color */
+            color: #fff; /* Button text color */
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d35400; /* Button color on hover */
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>SNAKE GAME</h1>
+        <button id="startButton" onclick="startGame()">Start</button>
+    </center>
+
+    <script>
+        function startGame() {
+            window.location.href = 'index1.html'; // Replace 'snake-game.html' with the actual file name of your Snake Game page
+        }
+    </script>
+</body>
+</html>
